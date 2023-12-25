@@ -17,9 +17,9 @@ from pytgcalls.types.input_stream.quality import HighQualityAudio, MediumQuality
 from pytgcalls.types.stream import StreamAudioEnded
 
 import config
-from YummMusic import LOGGER, YouTube, app
-from YummMusic.misc import db
-from YummMusic.utils.database import (
+from YummiMusic import LOGGER, YouTube, app
+from YummiMusic.misc import db
+from YummiMusic.utils.database import (
     add_active_chat,
     add_active_video_chat,
     get_lang,
@@ -31,11 +31,11 @@ from YummMusic.utils.database import (
     remove_active_video_chat,
     set_loop,
 )
-from YummMusic.utils.exceptions import AssistantErr
-from YummMusic.utils.formatters import check_duration, seconds_to_min, speed_converter
-from YummMusic.utils.inline.play import stream_markup
-from YummMusic.utils.stream.autoclear import auto_clean
-from YummMusic.utils.thumbnails import get_thumb
+from YummiMusic.utils.exceptions import AssistantErr
+from YummiMusic.utils.formatters import check_duration, seconds_to_min, speed_converter
+from YummiMusic.utils.inline.play import stream_markup
+from YummiMusic.utils.stream.autoclear import auto_clean
+from YummiMusic.utils.thumbnails import get_thumb
 from strings import get_string
 
 autoend = {}

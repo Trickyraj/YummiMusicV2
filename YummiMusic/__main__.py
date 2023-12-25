@@ -50,7 +50,7 @@ async def init():
         pass
     await Anony.decorators()
     LOGGER("YummiMusic").info(
-        "Hello Boss Ham Start Ho Gaya pat aap na ritik ko video nahi send Kiya"
+        "\\n \\nHello Boss Ham Start Ho Gaya pat aap na ritik ko video nahi send Kiye"
     )
     await idle()
     await app.stop()
